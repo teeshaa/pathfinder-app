@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".webdeveloper">
+
+
+    <ImageView
+        android:layout_width="131dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/white"
+        android:foregroundGravity="center_vertical"
+        android:src="@drawable/webdeveloper"
+        app:layout_constraintBottom_toTopOf="@+id/money"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <Button
+        android:id="@+id/frontend"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="Front-end"
+        android:textColor="@color/white"
+        app:backgroundTint="#DF3030"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
+
+    <Button
+        android:id="@+id/backend"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="back-end"
+        app:backgroundTint="#DF3030"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <Button
+        android:id="@+id/webdesigner"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="Web-Design"
+        android:textColor="@color/white"
+        app:backgroundTint="#DF3030"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <Button
+        android:id="@+id/backtowebd"
+        android:layout_width="133dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:text="Back"
+        android:textColor="@color/white"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834" />
+</androidx.constraintlayout.widget.ConstraintLayout>

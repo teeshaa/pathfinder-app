@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".music">
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="88dp"
+        android:background="@color/white"
+        android:foregroundGravity="center_vertical"
+        android:src="@drawable/music"
+        app:layout_constraintBottom_toTopOf="@+id/improve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/singer"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="I love to sing a song "
+        android:textColor="@color/white"
+        app:backgroundTint="#E62727"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <Button
+        android:id="@+id/guitar"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="I want to  play guitar "
+        android:textColor="@color/white"
+        app:backgroundTint="#E62727"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <Button
+        android:id="@+id/instrument"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="I want to play instruments "
+        android:textColor="@color/white"
+        app:backgroundTint="#E62727"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
+
+
+    <Button
+        android:id="@+id/cubase"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="I want to compose music "
+        android:textColor="@color/white"
+        app:backgroundTint="#E62727"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+
+    <Button
+        android:id="@+id/musictherapy"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="I have studied psychology "
+        android:textColor="@color/white"
+        app:backgroundTint="#E62727"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <Button
+        android:id="@+id/voiceover"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="I want be a voice of characters in TV shows and movies "
+        android:textColor="@color/white"
+        app:backgroundTint="#E62727"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <Button
+        android:id="@+id/audioengineer"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="I love to work with sounds  "
+        android:textColor="@color/white"
+        app:backgroundTint="#E62727"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <Button
+        android:id="@+id/backtoenter"
+        android:layout_width="133dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:text="Back"
+        android:textColor="@color/white"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

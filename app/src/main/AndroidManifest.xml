@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PathFinder"
+        tools:targetApi="31">
+        <activity
+            android:name=".audioengineer"
+            android:exported="false" />
+        <activity
+            android:name=".voiceover"
+            android:exported="false" />
+        <activity
+            android:name=".musictherapy"
+            android:exported="false" />
+        <activity
+            android:name=".cubase"
+            android:exported="false" />
+        <activity
+            android:name=".instrument"
+            android:exported="false" />
+        <activity
+            android:name=".guitar"
+            android:exported="false" />
+        <activity
+            android:name=".singer"
+            android:exported="false" />
+        <activity
+            android:name=".videoeditor"
+            android:exported="false" />
+        <activity
+            android:name=".photographer"
+            android:exported="false" />
+        <activity
+            android:name=".acting"
+            android:exported="false" />
+        <activity
+            android:name=".filmmaking"
+            android:exported="false" />
+        <activity
+            android:name=".dance"
+            android:exported="false" />
+        <activity
+            android:name=".music"
+            android:exported="false" />
+        <activity
+            android:name=".traditional"
+            android:exported="false" />
+        <activity
+            android:name=".photoshop"
+            android:exported="false" />
+        <activity
+            android:name=".adobe"
+            android:exported="false" />
+        <activity
+            android:name=".figma"
+            android:exported="false" />
+        <activity
+            android:name=".webdesigner"
+            android:exported="false" />
+        <activity
+            android:name=".hardand"
+            android:exported="false" />
+        <activity
+            android:name=".mediumand"
+            android:exported="false" />
+        <activity
+            android:name=".easyand"
+            android:exported="false" />
+        <activity
+            android:name=".pro"
+            android:exported="false" />
+        <activity
+            android:name=".framework"
+            android:exported="false" />
+        <activity
+            android:name=".frontad"
+            android:exported="false" />
+        <activity
+            android:name=".frontbasic"
+            android:exported="false" />
+        <activity
+            android:name=".backend"
+            android:exported="false" />
+        <activity
+            android:name=".frontend"
+            android:exported="false" />
+        <activity
+            android:name=".industryds"
+            android:exported="false" />
+        <activity
+            android:name=".easyds"
+            android:exported="false" />
+        <activity
+            android:name=".machine"
+            android:exported="false" />
+        <activity
+            android:name=".datascience"
+            android:exported="false" />
+        <activity
+            android:name=".androiddeveloper"
+            android:exported="false" />
+        <activity
+            android:name=".webdeveloper"
+            android:exported="false" />
+        <activity
+            android:name=".datastructure"
+            android:exported="false" />
+        <activity
+            android:name=".money"
+            android:exported="false" />
+        <activity
+            android:name=".unity"
+            android:exported="false" />
+        <activity
+            android:name=".simple"
+            android:exported="false" />
+        <activity
+            android:name=".game"
+            android:exported="false" />
+        <activity
+            android:name=".android"
+            android:exported="false" />
+        <activity
+            android:name=".apple"
+            android:exported="false" />
+        <activity
+            android:name=".advance"
+            android:exported="false" />
+        <activity
+            android:name=".basic"
+            android:exported="false" />
+        <activity
+            android:name=".browser"
+            android:exported="false" />
+        <activity
+            android:name=".startup"
+            android:exported="false" />
+        <activity
+            android:name=".hard_improve"
+            android:exported="false" />
+        <activity
+            android:name=".medium_improve"
+            android:exported="false" />
+        <activity
+            android:name=".easy_improve"
+            android:exported="false" />
+        <activity
+            android:name=".improve"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
