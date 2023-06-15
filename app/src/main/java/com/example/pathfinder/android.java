@@ -9,23 +9,24 @@ import android.view.View;
 import android.widget.Button;
 
 public class android extends AppCompatActivity {
-private Button back11;
-private Button flutter1;
+    private Button back11;
+    private Button flutter1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_android);
-        back11=findViewById(R.id.backtostartup);
-        back11.setOnClickListener(new View.OnClickListener(){
+        back11 = findViewById(R.id.backtostartup);
+        back11.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(android.this,startup.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(android.this, startup.class);
                 startActivity(intent);
                 finish();
             }
         });
 
-        flutter1=  findViewById(R.id.flutter);
+        flutter1 = findViewById(R.id.flutter);
         flutter1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,6 +35,7 @@ private Button flutter1;
             }
         });
     }
+
     private void gotoUrl(String s) {
         Uri uri = Uri.parse(s);
         startActivity(new Intent(Intent.ACTION_VIEW, uri));

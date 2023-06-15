@@ -11,15 +11,16 @@ import android.webkit.WebViewClient;
 import android.widget.Button;
 
 public class easy_improve extends AppCompatActivity {
-private Button python1;
-private Button back2;
+    private Button python1;
+    private Button back2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_easy_improve);
 
 
-        python1 =  findViewById(R.id.easypython);
+        python1 = findViewById(R.id.easypython);
         python1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,19 +29,20 @@ private Button back2;
             }
         });
 
-        back2=findViewById(R.id.backtoeasy);
-        back2.setOnClickListener(new View.OnClickListener(){
+        back2 = findViewById(R.id.backtoeasy);
+        back2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(easy_improve.this,improve.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(easy_improve.this, improve.class);
                 startActivity(intent);
                 finish();
             }
         });
 
     }
-    private void gotoUrl(String s){
+
+    private void gotoUrl(String s) {
         Uri uri = Uri.parse(s);
-        startActivity(new Intent(Intent.ACTION_VIEW,uri));
+        startActivity(new Intent(Intent.ACTION_VIEW, uri));
     }
 }

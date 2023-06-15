@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class androiddeveloper extends AppCompatActivity {
-private Button easyand1;
+    private Button easyand1;
     private Button mediumand1;
     private Button hardand1;
     private Button back26;
@@ -18,42 +18,42 @@ private Button easyand1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_androiddeveloper);
 
-        easyand1=findViewById(R.id.easyand);
-        easyand1.setOnClickListener(new View.OnClickListener(){
+        easyand1 = findViewById(R.id.easyand);
+        easyand1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(androiddeveloper.this,easyand.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(androiddeveloper.this, easyand.class);
                 startActivity(intent);
                 finish();
             }
         });
 
-        mediumand1=findViewById(R.id.mediumand);
-        mediumand1.setOnClickListener(new View.OnClickListener(){
+        mediumand1 = findViewById(R.id.mediumand);
+        mediumand1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(androiddeveloper.this,mediumand.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(androiddeveloper.this, mediumand.class);
                 startActivity(intent);
                 finish();
             }
         });
 
-        hardand1=findViewById(R.id.hardand);
-        hardand1.setOnClickListener(new View.OnClickListener(){
+        hardand1 = findViewById(R.id.hardand);
+        hardand1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(androiddeveloper.this,hardand.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(androiddeveloper.this, hardand.class);
                 startActivity(intent);
                 finish();
             }
         });
 
 
-        back26=findViewById(R.id.backtomoney);
-        back26.setOnClickListener(new View.OnClickListener(){
+        back26 = findViewById(R.id.backtomoney);
+        back26.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(androiddeveloper.this,money.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(androiddeveloper.this, money.class);
                 startActivity(intent);
                 finish();
             }

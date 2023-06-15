@@ -9,9 +9,10 @@ import android.view.View;
 import android.widget.Button;
 
 public class cubase extends AppCompatActivity {
-private Button cubasexpaid1;
+    private Button cubasexpaid1;
     private Button cubasexfree1;
     private Button back46;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

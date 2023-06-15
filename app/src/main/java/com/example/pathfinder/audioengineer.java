@@ -9,9 +9,10 @@ import android.view.View;
 import android.widget.Button;
 
 public class audioengineer extends AppCompatActivity {
-private Button audiox1;
-private Button audiowhat1;
-private Button back51;
+    private Button audiox1;
+    private Button audiowhat1;
+    private Button back51;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +35,6 @@ private Button back51;
                 gotoUrl("https://open.spotify.com/episode/6TgDv1CzSAl7qSZqR32dh3?si=NNtlusn3QbaZb1Iq-Heqcw&utm_source=copy-link");
             }
         });
-
 
 
         back51 = findViewById(R.id.backtomusic);
