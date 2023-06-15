@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class instrument extends AppCompatActivity {
-private Button tablax1;
+    private Button tablax1;
     private Button pianox1;
     private Button harmx1;
     private Button flutex1;
