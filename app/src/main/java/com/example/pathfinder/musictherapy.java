@@ -9,9 +9,10 @@ import android.view.View;
 import android.widget.Button;
 
 public class musictherapy extends AppCompatActivity {
-private Button therapypaid1;
-private Button therapywhat1;
-private Button back47;
+    private Button therapypaid1;
+    private Button therapywhat1;
+    private Button back47;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class datascience extends AppCompatActivity {
-private Button python4;
-private Button back30;
+    private Button python4;
+    private Button back30;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,8 +18,7 @@ private Button back30;
         setContentView(R.layout.activity_datascience);
 
 
-
-        python4 =  findViewById(R.id.dspython);
+        python4 = findViewById(R.id.dspython);
         python4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,19 +27,20 @@ private Button back30;
             }
         });
 
-        back30=findViewById(R.id.backtomoney);
-        back30.setOnClickListener(new View.OnClickListener(){
+        back30 = findViewById(R.id.backtomoney);
+        back30.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(datascience.this,money.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(datascience.this, money.class);
                 startActivity(intent);
                 finish();
             }
         });
 
     }
-    private void gotoUrl(String s){
+
+    private void gotoUrl(String s) {
         Uri uri = Uri.parse(s);
-        startActivity(new Intent(Intent.ACTION_VIEW,uri));
+        startActivity(new Intent(Intent.ACTION_VIEW, uri));
     }
 }

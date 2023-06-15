@@ -9,24 +9,25 @@ import android.view.View;
 import android.widget.Button;
 
 public class mediumand extends AppCompatActivity {
-private Button back28;
-private Button java3;
+    private Button back28;
+    private Button java3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mediumand);
 
-        back28=findViewById(R.id.backtoandroid);
-        back28.setOnClickListener(new View.OnClickListener(){
+        back28 = findViewById(R.id.backtoandroid);
+        back28.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(mediumand.this,androiddeveloper.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(mediumand.this, androiddeveloper.class);
                 startActivity(intent);
                 finish();
             }
         });
 
-        java3=  findViewById(R.id.java);
+        java3 = findViewById(R.id.java);
         java3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,6 +37,7 @@ private Button java3;
         });
 
     }
+
     private void gotoUrl(String s) {
         Uri uri = Uri.parse(s);
         startActivity(new Intent(Intent.ACTION_VIEW, uri));
