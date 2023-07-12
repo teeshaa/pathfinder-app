@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/white"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".startup">
 
     <TextView
@@ -55,8 +55,8 @@
         android:layout_height="54dp"
         android:gravity="center"
         android:text="ios for apple "
-        app:backgroundTint="#E88115"
         android:textColor="@color/white"
+        app:backgroundTint="#E88115"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
@@ -70,8 +70,8 @@
         android:layout_height="54dp"
         android:gravity="center"
         android:text="Android and Apple"
-        app:backgroundTint="#E88115"
         android:textColor="@color/white"
+        app:backgroundTint="#E88115"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
@@ -94,7 +94,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.834" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

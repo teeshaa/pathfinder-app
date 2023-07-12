@@ -7,21 +7,21 @@
     android:background="@color/white"
     tools:context=".money">
 
- <ImageView
-     android:layout_width="131dp"
-     android:layout_height="116dp"
-     android:layout_marginTop="44dp"
-     android:background="@color/white"
-     android:foregroundGravity="center_vertical"
-     android:src="@drawable/money"
-     app:layout_constraintBottom_toTopOf="@+id/money"
-     app:layout_constraintEnd_toEndOf="parent"
-     app:layout_constraintHorizontal_bias="0.467"
-     app:layout_constraintStart_toStartOf="parent"
-     app:layout_constraintTop_toTopOf="parent"
-     app:layout_constraintVertical_bias="0.218" />
+    <ImageView
+        android:layout_width="131dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/white"
+        android:foregroundGravity="center_vertical"
+        android:src="@drawable/money"
+        app:layout_constraintBottom_toTopOf="@+id/money"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218" />
 
- <Button
+    <Button
         android:id="@+id/datastructure"
         android:layout_width="297dp"
         android:layout_height="54dp"
@@ -42,8 +42,8 @@
         android:layout_height="54dp"
         android:gravity="center"
         android:text="Web developer"
-        app:backgroundTint="#12D32C"
         android:textColor="@color/white"
+        app:backgroundTint="#12D32C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
@@ -57,8 +57,8 @@
         android:layout_height="54dp"
         android:gravity="center"
         android:text="Android Developer  "
-        app:backgroundTint="#12D32C"
         android:textColor="@color/white"
+        app:backgroundTint="#12D32C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
@@ -72,8 +72,8 @@
         android:layout_height="54dp"
         android:gravity="center"
         android:text="Data Science "
-        app:backgroundTint="#12D32C"
         android:textColor="@color/white"
+        app:backgroundTint="#12D32C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
@@ -87,15 +87,14 @@
         android:layout_height="54dp"
         android:gravity="center"
         android:text="Machine learning / Artificial intelligence"
-        app:backgroundTint="#12D32C"
         android:textColor="@color/white"
+        app:backgroundTint="#12D32C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.595" />
-
 
 
     <Button
