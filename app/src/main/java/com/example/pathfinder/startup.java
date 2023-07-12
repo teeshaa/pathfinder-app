@@ -1,11 +1,11 @@
 package com.example.pathfinder;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class startup extends AppCompatActivity {
 private Button back6;
@@ -21,7 +21,7 @@ private Button android1;
         back6.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(startup.this,MainActivity4.class);
+                Intent intent = new Intent(startup.this, Coding.class);
                 startActivity(intent);
                 finish();
             }

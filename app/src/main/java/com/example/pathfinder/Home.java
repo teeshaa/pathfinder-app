@@ -2,25 +2,26 @@
 
 package com.example.pathfinder;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity2 extends AppCompatActivity {
-private Button entertainment1;
-private Button coding1;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Home extends AppCompatActivity {
+    private Button entertainment1;
+    private Button coding1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        entertainment1=findViewById(R.id.music);
-        entertainment1.setOnClickListener(new View.OnClickListener(){
+        entertainment1 = findViewById(R.id.music);
+        entertainment1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                Intent intent = new Intent(MainActivity2.this,music.class);
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, music.class);
                 startActivity(intent);
                 finish();
             }
@@ -30,7 +31,7 @@ private Button coding1;
         coding1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity2.this,MainActivity4.class);
+                Intent intent = new Intent(Home.this, Coding.class);
                 startActivity(intent);
                 finish();
             }

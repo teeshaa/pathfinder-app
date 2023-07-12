@@ -1,11 +1,11 @@
 package com.example.pathfinder;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class music extends AppCompatActivity {
 private Button singer1;
@@ -99,7 +99,7 @@ private Button singer1;
         back41.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(music.this,MainActivity2.class);
+                Intent intent = new Intent(music.this, Home.class);
                 startActivity(intent);
                 finish();
             }
