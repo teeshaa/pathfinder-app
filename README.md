@@ -16,8 +16,6 @@ PathFinder is a career guidance application designed to assist students and indi
 
 ## Getting Started
 
-## Getting Started
-
 To get started with the PathFinder application, you can follow these steps:
 
 1. Clone the repository from GitHub:
