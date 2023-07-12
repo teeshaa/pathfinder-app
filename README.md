@@ -11,16 +11,38 @@ PathFinder is a career guidance application designed to assist students and indi
 
 ## Screenshots
 
-Include some screenshots of your application here to provide a visual representation of its interface and features. You can add images by following this format:
+![Screenshot 1](screenshots/screenshot.png)
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
-![Screenshot 3](screenshots/screenshot4.png)
+
+## Getting Started
 
 ## Getting Started
 
 To get started with the PathFinder application, you can follow these steps:
 
 1. Clone the repository from GitHub:
+
+   ```shell
+   git clone https://github.com/teeshaa/pathfinder-app.git
+
+
+2. Open the project in Android Studio:
+
+- Launch Android Studio.
+- Select "Open an existing Android Studio project."
+- Navigate to the cloned repository and select the "pathfinder-app" directory.
+
+3. Build and run the application:
+
+- Connect an Android device or use an emulator.
+- Click on the "Run" button in Android Studio.
+
+4. Explore the features and functionalities of the PathFinder application.
+
+## Development
+
+PathFinder is designed and developed by me [Teesha Ghevariya]. It is built using Android Studio with Java as the programming language. Contributions, bug reports, and feature requests are welcome. Feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/teeshaa/pathfinder-app).
+
+
+   
 
