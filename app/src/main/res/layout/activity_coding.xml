@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:background="@color/white"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity4">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity4">
 
     <ImageView
         android:layout_width="131dp"
@@ -41,8 +41,8 @@
         android:layout_height="54dp"
         android:gravity="center"
         android:text="I have an start-up idea"
-        app:backgroundTint="#425BDC"
         android:textColor="@color/white"
+        app:backgroundTint="#425BDC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
@@ -56,8 +56,8 @@
         android:layout_height="54dp"
         android:gravity="center"
         android:text="I want to make a game "
-        app:backgroundTint="#425BDC"
         android:textColor="@color/white"
+        app:backgroundTint="#425BDC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
@@ -71,8 +71,8 @@
         android:layout_height="54dp"
         android:gravity="center"
         android:text="I want to make good money"
-        app:backgroundTint="#425BDC"
         android:textColor="@color/white"
+        app:backgroundTint="#425BDC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.421"
