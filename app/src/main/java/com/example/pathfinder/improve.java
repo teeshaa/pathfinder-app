@@ -51,7 +51,7 @@ public class improve extends AppCompatActivity {
         back1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(improve.this, Coding.class);
+                Intent intent = new Intent(improve.this, coding.class);
                 startActivity(intent);
                 finish();
             }

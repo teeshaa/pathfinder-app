@@ -1,13 +1,13 @@
 package com.example.pathfinder;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Login extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class login extends AppCompatActivity {
     private Button login1;
 
     @Override
@@ -19,7 +19,7 @@ public class Login extends AppCompatActivity {
         login1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Login.this, Home.class);
+                Intent intent = new Intent(login.this, home.class);
                 startActivity(intent);
                 finish();
             }

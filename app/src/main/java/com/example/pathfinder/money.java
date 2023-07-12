@@ -24,7 +24,7 @@ private Button back16;
         back16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(money.this, Coding.class);
+                Intent intent = new Intent(money.this, coding.class);
                 startActivity(intent);
                 finish();
             }
@@ -84,7 +84,7 @@ private Button back16;
         back16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(money.this, Coding.class);
+                Intent intent = new Intent(money.this, coding.class);
                 startActivity(intent);
                 finish();
             }

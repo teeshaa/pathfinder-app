@@ -21,7 +21,7 @@ public class game extends AppCompatActivity {
         back12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(game.this, Coding.class);
+                Intent intent = new Intent(game.this, coding.class);
                 startActivity(intent);
                 finish();
             }

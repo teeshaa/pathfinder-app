@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Home extends AppCompatActivity {
+public class home extends AppCompatActivity {
     private Button entertainment1;
     private Button coding1;
 
@@ -21,7 +21,7 @@ public class Home extends AppCompatActivity {
         entertainment1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this, music.class);
+                Intent intent = new Intent(home.this, music.class);
                 startActivity(intent);
                 finish();
             }
@@ -31,7 +31,7 @@ public class Home extends AppCompatActivity {
         coding1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(Home.this, Coding.class);
+                Intent intent = new Intent(home.this, coding.class);
                 startActivity(intent);
                 finish();
             }

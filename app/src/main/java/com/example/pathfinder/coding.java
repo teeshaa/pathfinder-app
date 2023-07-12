@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Coding extends AppCompatActivity {
+public class coding extends AppCompatActivity {
     private Button improve1;
     private Button back5;
     private Button startup1;
@@ -23,7 +23,7 @@ public class Coding extends AppCompatActivity {
         improve1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Coding.this, improve.class);
+                Intent intent = new Intent(coding.this, improve.class);
                 startActivity(intent);
                 finish();
             }
@@ -33,7 +33,7 @@ public class Coding extends AppCompatActivity {
         startup1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Coding.this, startup.class);
+                Intent intent = new Intent(coding.this, startup.class);
                 startActivity(intent);
                 finish();
             }
@@ -43,7 +43,7 @@ public class Coding extends AppCompatActivity {
         game1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Coding.this, game.class);
+                Intent intent = new Intent(coding.this, game.class);
                 startActivity(intent);
                 finish();
             }
@@ -53,7 +53,7 @@ public class Coding extends AppCompatActivity {
         money1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Coding.this, money.class);
+                Intent intent = new Intent(coding.this, money.class);
                 startActivity(intent);
                 finish();
             }
@@ -65,7 +65,7 @@ public class Coding extends AppCompatActivity {
         back5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Coding.this, Home.class);
+                Intent intent = new Intent(coding.this, home.class);
                 startActivity(intent);
                 finish();
             }

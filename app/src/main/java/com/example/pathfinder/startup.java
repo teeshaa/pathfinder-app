@@ -21,7 +21,7 @@ private Button android1;
         back6.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(startup.this, Coding.class);
+                Intent intent = new Intent(startup.this, coding.class);
                 startActivity(intent);
                 finish();
             }
