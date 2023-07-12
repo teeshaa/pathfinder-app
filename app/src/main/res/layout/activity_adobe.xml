@@ -3,22 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/white"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".adobe">
 
     <ImageView
-        android:layout_width="131dp"
-        android:layout_height="116dp"
+        android:id="@+id/imageView"
+        android:layout_width="171dp"
+        android:layout_height="151dp"
         android:background="@color/white"
         android:foregroundGravity="center_vertical"
         android:src="@drawable/adobe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <TextView
         android:id="@+id/textView3"
@@ -26,58 +27,57 @@
         android:layout_height="wrap_content"
         android:text="Adobe XD"
         android:textColor="#000000"
-        android:textSize="34sp"
+        android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.072" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="You should start learning Adobe XD"
+        android:layout_width="317dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/start_learning_adobe_xd"
         android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintHorizontal_bias="0.829"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
         android:id="@+id/adobe2"
-        android:layout_width="307dp"
-        android:layout_height="51dp"
+        android:layout_width="337dp"
+        android:layout_height="65dp"
         android:background="@color/white"
         android:gravity="center"
-        android:text="Free source for learning Adobe XD "
+        android:text="Free source for learning Adobe XD"
         android:textColor="@color/white"
+        android:textSize="18sp"
         app:backgroundTint="#4C3BE6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.154" />
 
     <Button
         android:id="@+id/backtowebdesign2"
-        android:layout_width="133dp"
-        android:layout_height="59dp"
+        android:layout_width="149dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="72dp"
         android:gravity="center"
         android:text="Back"
         android:textColor="@color/white"
+        android:textSize="20sp"
         app:backgroundTint="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.826" />
-
+        app:layout_constraintTop_toBottomOf="@+id/adobe2"
+        app:layout_constraintVertical_bias="0.213" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:hapticFeedbackEnabled="true"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="214dp"
+        android:layout_height="132dp"
+        android:background="@drawable/rounded_button_with_shadow"
+        android:contentDescription="@string/music"
+        android:text="MUSIC"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435"
+        app:rippleColor="#EC2F2F"
+        app:shapeAppearanceOverlay="@style/RoundedButton"
+        tools:text="MUSIC" />
+
+    <Button
+        android:id="@+id/coding"
+        android:layout_width="214dp"
+        android:layout_height="132dp"
+        android:background="@drawable/rounded_button_with_shadow"
+        android:text="Coding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="@color/design_default_color_secondary_variant"
+        app:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696"
+        app:rippleColor="#EC2F2F"
+        app:shapeAppearanceOverlay="@style/RoundedButton"
+        app:strokeColor="@color/design_default_color_secondary_variant"
+        tools:text="Coding" />
+
+
+    <TextView
+        android:id="@+id/passion"
+        android:layout_width="345dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/discover_your_passion"
+        android:textColor="#00672B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:text="@string/hey_teesha"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/welcome_to_pathfinder"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

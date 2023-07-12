@@ -74,7 +74,10 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:backgroundTint="@color/design_default_color_on_secondary"
-        android:text="LOGIN" />
+        android:rotationX="-8"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        app:cornerRadius="@dimen/cardview_default_radius" />
 
     <TextView
         android:id="@+id/forgetpass"

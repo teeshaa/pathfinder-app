@@ -42,9 +42,6 @@
             android:name=".photographer"
             android:exported="false" />
         <activity
-            android:name=".acting"
-            android:exported="false" />
-        <activity
             android:name=".filmmaking"
             android:exported="false" />
         <activity
@@ -160,9 +157,6 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity4"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity3"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"

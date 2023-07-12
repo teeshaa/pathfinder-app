@@ -15,12 +15,12 @@ private Button coding1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_home);
         entertainment1=findViewById(R.id.music);
         entertainment1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                Intent intent = new Intent(MainActivity2.this,music.class);
                 startActivity(intent);
                 finish();
             }

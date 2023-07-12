@@ -99,7 +99,7 @@ private Button singer1;
         back41.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(music.this,MainActivity3.class);
+                Intent intent = new Intent(music.this,MainActivity2.class);
                 startActivity(intent);
                 finish();
             }
