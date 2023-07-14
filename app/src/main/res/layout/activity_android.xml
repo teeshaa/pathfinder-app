@@ -9,16 +9,17 @@
 
 
     <ImageView
-        android:layout_width="159dp"
-        android:layout_height="109dp"
+        android:layout_width="174dp"
+        android:layout_height="140dp"
         android:background="@color/white"
         android:foregroundGravity="center_vertical"
         android:src="@drawable/flutter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintVertical_bias="0.199" />
 
     <TextView
         android:id="@+id/textView3"
